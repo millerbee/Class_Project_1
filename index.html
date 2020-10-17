@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Knewave&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"> </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="asset/style.css" />
+
+
+  <title>Dog Friendly Denver</title>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <img class="paw" src="asset/paw_icon.png" height="auto" width="10%"></img>
+    <a class="navbar-brand" href="#">Dog Friendly Denver</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dogpage.html">Dog Pictures</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catpage.html">Cat Pictures</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resources.html">Adopt!</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div class="container" id="quiz-card">
+<div class="row">
+  <div class="main-card hidden" style="width: 60%;">
+    <img class="card-img-top quiz-pic" src="asset/dogquestion.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <h3 id="question"></h3>
+      <p class="card-text"></p>
+      <div id="dynamicBtns"></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="empty-div"></div>
+  <br>
+  <br>
+  <img class= "polaroid empty-div animate__animated animate__bounce" src="asset/petPics/jcat1.jpg">
+  <img class= "polaroid empty-div animate__animated animate__bounce" src="asset/petPics/adog.jpg">
+  <img class= "polaroid empty-div animate__animated animate__bounce" src="asset/petPics/bcat.png">
+  <img class= "polaroid empty-div animate__animated animate__bounce" src="asset/petPics/jcat2.jpg">
+  <img class= "polaroid empty-div animate__animated animate__bounce" src="asset/petPics/kdog.jpg">
+  <img class= "polaroid little empty-div animate__animated animate__bounce" src="asset/petPics/dcat.png">
+  <br>
+  <br>
+<div class="quiz-location"></div>
+<img class= "polaroid empty-div animate__animated animate__bounce" src="asset/petPics/tfish.jpg">
+
+
+  <!-- <div id="picture"></div>
+  <div id="cat"></div> -->
+  <!-- <button id="testBtn">Test Start Button</button> -->
+  <!-- <br>
+  <br>
+  <div id="dynamicBtns"></div> -->
+  <!-- <br>
+  <br> -->
+  <!-- <h3 id="question"></h3> -->
+  <div class="card-group hidden container">
+    <h3>Are you a cat person or a dog person?</h3>
+    <div class="row">
+      <div class="col-md-3"></div>
+    <div class="card-cat col-md-3">
+      <img id="kitten" class="cat-image" src="asset/catImg.png" alt="catimg">
+      <div>
+        <h5 class="card-title"></h5>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="card-dog col-md-3">
+      <img id="puppy" class="dog-image" src="asset/dogImg.png" alt="dogimg">
+      <div >
+        <h5 class="dog-card-title"></h5>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="quiz-end-cat" class="quiz-end-cat hidden">
+    <img src="">
+    <div id="imgCat"></div>
+        <h5 class="quiz-end-text"></h5>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+    <div id="quiz-end-dog" class="quiz-end-dog hidden">
+      <img src="">
+      <div id="imgDog"></div>
+          <h5 class="quiz-end-text"></h5>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+
+
+
+  
+      <!-- <div class="btn1 btn-primary"></div>
+
+  
+  <div id="background">
+
+    <div id="mainTitle"></div>
+    <div id="picture"></div>
+    <div id="cat"></div>
+
+<p id="intro"></p>
+
+
+      <div class="btn2 btn-primary"></div> -->
+    
+  </div>
+  <br>
+  <!-- <button id="testBtn">Test Start Button</button> -->
+
+  <script src="asset/script.js"></script>
+
+</body>
+
+</html>
